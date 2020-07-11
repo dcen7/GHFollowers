@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB49E13F24B6256200463B32 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49E13E24B6256200463B32 /* GFButton.swift */; };
 		FB49F28124B3958400DD49EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49F28024B3958400DD49EE /* AppDelegate.swift */; };
 		FB49F28324B3958400DD49EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49F28224B3958400DD49EE /* SceneDelegate.swift */; };
 		FB49F28A24B3958800DD49EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB49F28924B3958800DD49EE /* Assets.xcassets */; };
 		FB49F28D24B3958800DD49EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB49F28B24B3958800DD49EE /* LaunchScreen.storyboard */; };
 		FB49F29924B49E0B00DD49EE /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49F29824B49E0B00DD49EE /* SearchVC.swift */; };
 		FB49F29B24B49E4B00DD49EE /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49F29A24B49E4B00DD49EE /* FavoritesListVC.swift */; };
+		FB6672D424B8936E009B5606 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6672D324B8936E009B5606 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB49E13E24B6256200463B32 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		FB49F27D24B3958400DD49EE /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB49F28024B3958400DD49EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB49F28224B3958400DD49EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		FB49F28E24B3958800DD49EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB49F29824B49E0B00DD49EE /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		FB49F29A24B49E4B00DD49EE /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		FB6672D324B8936E009B5606 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FB49F28E24B3958800DD49EE /* Info.plist */,
 				FB49F29824B49E0B00DD49EE /* SearchVC.swift */,
 				FB49F29A24B49E4B00DD49EE /* FavoritesListVC.swift */,
+				FB49E13E24B6256200463B32 /* GFButton.swift */,
+				FB6672D324B8936E009B5606 /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6672D424B8936E009B5606 /* GFTextField.swift in Sources */,
 				FB49F29B24B49E4B00DD49EE /* FavoritesListVC.swift in Sources */,
+				FB49E13F24B6256200463B32 /* GFButton.swift in Sources */,
 				FB49F29924B49E0B00DD49EE /* SearchVC.swift in Sources */,
 				FB49F28124B3958400DD49EE /* AppDelegate.swift in Sources */,
 				FB49F28324B3958400DD49EE /* SceneDelegate.swift in Sources */,
