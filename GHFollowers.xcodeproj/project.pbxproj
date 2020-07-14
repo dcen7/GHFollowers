@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB31237524BE022900E234DC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB31237424BE022900E234DC /* NetworkManager.swift */; };
 		FB43DFC124BCBF6F00936FD4 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43DFC024BCBF6F00936FD4 /* Follower.swift */; };
 		FB43DFC324BCBFAE00936FD4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43DFC224BCBFAE00936FD4 /* User.swift */; };
 		FB49E13F24B6256200463B32 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49E13E24B6256200463B32 /* GFButton.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB31237424BE022900E234DC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FB43DFC024BCBF6F00936FD4 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		FB43DFC224BCBFAE00936FD4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FB49E13E24B6256200463B32 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB31237324BE020C00E234DC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FB31237424BE022900E234DC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		FB43DFBF24BCBF6200936FD4 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		FB49F27F24B3958400DD49EE /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				FB31237324BE020C00E234DC /* Managers */,
 				FB43DFBF24BCBF6200936FD4 /* Modal */,
 				FBD266C624BCAEDE00945205 /* Support */,
 				FBD266C524BCAEA600945205 /* Extensions */,
@@ -214,6 +225,7 @@
 				FB49F29924B49E0B00DD49EE /* SearchVC.swift in Sources */,
 				FB6672DA24BB6F15009B5606 /* GFBodyLabel.swift in Sources */,
 				FB6672D824BB6C3B009B5606 /* GFTitleLabel.swift in Sources */,
+				FB31237524BE022900E234DC /* NetworkManager.swift in Sources */,
 				FB49F28124B3958400DD49EE /* AppDelegate.swift in Sources */,
 				FB49F28324B3958400DD49EE /* SceneDelegate.swift in Sources */,
 				FB6672D624BA0102009B5606 /* FollowerListVC.swift in Sources */,
