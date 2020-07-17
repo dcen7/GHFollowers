@@ -23,6 +23,7 @@
 		FB6672DA24BB6F15009B5606 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6672D924BB6F15009B5606 /* GFBodyLabel.swift */; };
 		FB6672DC24BB703A009B5606 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6672DB24BB703A009B5606 /* GFAlertVC.swift */; };
 		FB6A38CC24BB814A0033A1DE /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A38CB24BB814A0033A1DE /* UIViewController+Ext.swift */; };
+		FB8BC48924C1D21200FB89BD /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BC48824C1D21200FB89BD /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FB6672D924BB6F15009B5606 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		FB6672DB24BB703A009B5606 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		FB6A38CB24BB814A0033A1DE /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		FB8BC48824C1D21200FB89BD /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		FB49F27F24B3958400DD49EE /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				FB8BC48724C1D1F600FB89BD /* Utilities */,
 				FB31237324BE020C00E234DC /* Managers */,
 				FB43DFBF24BCBF6200936FD4 /* Modal */,
 				FBD266C624BCAEDE00945205 /* Support */,
@@ -102,6 +105,14 @@
 				FB49F28E24B3958800DD49EE /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		FB8BC48724C1D1F600FB89BD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB8BC48824C1D21200FB89BD /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		FBD266C324BCAE0500945205 /* CustomViews */ = {
@@ -222,6 +233,7 @@
 				FB49E13F24B6256200463B32 /* GFButton.swift in Sources */,
 				FB6A38CC24BB814A0033A1DE /* UIViewController+Ext.swift in Sources */,
 				FB6672DC24BB703A009B5606 /* GFAlertVC.swift in Sources */,
+				FB8BC48924C1D21200FB89BD /* ErrorMessage.swift in Sources */,
 				FB49F29924B49E0B00DD49EE /* SearchVC.swift in Sources */,
 				FB6672DA24BB6F15009B5606 /* GFBodyLabel.swift in Sources */,
 				FB6672D824BB6C3B009B5606 /* GFTitleLabel.swift in Sources */,
