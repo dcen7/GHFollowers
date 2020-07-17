@@ -9,8 +9,8 @@
 import Foundation
 
 class NetworkManager {
-    static let shared   = NetworkManager()
-    let baseURL         = "https://api.github.com/users/"
+    static let shared = NetworkManager()
+    let baseURL = "https://api.github.com/users/"
     
     private init() {}
     

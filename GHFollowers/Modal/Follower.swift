@@ -10,5 +10,5 @@ import Foundation
 
 struct Follower: Codable {
     var login: String
-    var avatar: String
+    var avatarUrl: String
 }
