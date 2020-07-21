@@ -109,10 +109,4 @@ class GFAlertVC: UIViewController {
         dismiss(animated: true)
     }
     
-    
-    
-    
-    
-
-    
 }
