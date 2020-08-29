@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Mehmet Deniz Cengiz on 7/17/20.
+//  Created by Mehmet Deniz Cengiz on 8/29/20.
 //  Copyright © 2020 Deniz Cengiz. All rights reserved.
 //
 
