@@ -130,6 +130,8 @@ extension UserInfoVC: UserInfoVCDelegate {
     
     func didTapGetFollowers(for user: User) {
        //deniz
+        //deniz
+        
     }
     
 }
