@@ -39,6 +39,7 @@
 		FB99BC3225041324000F657E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB99BC3125041324000F657E /* String+Ext.swift */; };
 		FBE34FDE24FE933800D130B4 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE34FDD24FE933800D130B4 /* GFItemInfoView.swift */; };
 		FBE34FE02500578E00D130B4 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE34FDF2500578E00D130B4 /* GFItemInfoVC.swift */; };
+		FBF8502E250D36FF000F53A3 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8502D250D36FF000F53A3 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		FB99BC3125041324000F657E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		FBE34FDD24FE933800D130B4 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		FBE34FDF2500578E00D130B4 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
+		FBF8502D250D36FF000F53A3 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				FB8BC48B24C3652800FB89BD /* FollowerCell.swift */,
+				FBF8502D250D36FF000F53A3 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				FB49A19F25026AD3009FED9A /* GHRepoItemVC.swift in Sources */,
 				FB49A1A125026EEE009FED9A /* GFFollowerItemVC.swift in Sources */,
 				FB6672DC24BB703A009B5606 /* GFAlertVC.swift in Sources */,
+				FBF8502E250D36FF000F53A3 /* FavoriteCell.swift in Sources */,
 				FBE34FDE24FE933800D130B4 /* GFItemInfoView.swift in Sources */,
 				FB8BC48C24C3652800FB89BD /* FollowerCell.swift in Sources */,
 				FB49F29924B49E0B00DD49EE /* SearchVC.swift in Sources */,
